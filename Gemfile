@@ -35,6 +35,11 @@ group :development do
   gem 'better_errors'
   gem 'rack-mini-profiler'
   gem 'simplecov', '~> 0.7.0', require: false
+
+  # bullet
+  gem 'bullet'
+  gem 'uniform_notifier'
+  gem 'ruby-growl'
 end
 
 group :development, :test do
